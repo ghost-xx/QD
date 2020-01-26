@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="30sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobile"
+            android:textSize="25sp"></TextView>
+
+        <EditText
+            android:id="@+id/ev_input_phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_hint"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="20sp"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lv_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <EditText
+            android:id="@+id/ev_img"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:maxLines="1"
+            android:maxLength="4"
+            android:inputType="number"></EditText>
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"></ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bv_get_code"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_click"
+            android:text="@string/btn_get_code"
+            android:textSize="20sp"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">QD</string>
+    <string name="mobile">手机号：</string>
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="input_hint">请输入要登录的手机号</string>
+    <string name="btn_get_code">获取验证码</string>
+    <string name="check_number">请检查手机号是否输入正确！</string>
+    <string name="input_sms_code">请在下面输入短信验证码:</string>
+    <string name="sms_code_hint">短信验证码</string>
+    <string name="choose_no_1">左侧45°\n点击上方选择</string>
+    <string name="choose_no_2">右侧45°\n点击上方选择</string>
+    <string name="choose_no_3">尾部\n点击上方选择</string>
+    <string name="choose_yes">已选择并上传到图床</string>
+    <string name="check_upload">获取参数中...</string>
+    <string name="upload">上传</string>
+    <string name="upload_end">上传完成</string>
+    <string name="check_pic">请检查三张照片是否已选择</string>
+    <string name="re_choose">请重新选择该图片</string>
+    <string name="wait">图片上传需要时间，请等待5-10秒</string>
+    <string name="re_choose_dialog">请按照提示重新选择上面的图片</string>
+    <string name="no_msg">暂无信息</string>
+    <string name="announcement">公告</string>
+    <string name="sure">确定</string>
+    <string name="not_show_msg">不再显示</string>
+    <string name="not_active">无使用权限，请先激活</string>
+    <string name="input_active_code">请输入激活码</string>
+    <string name="active">确认激活</string>
+</resources>
